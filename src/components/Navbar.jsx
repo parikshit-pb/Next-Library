@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-md px-8">
+    <div className="navbar bg-base-100 shadow-md px-8 relative z-50">
       {/* Left */}
       <div className="navbar-start">
         <Link
