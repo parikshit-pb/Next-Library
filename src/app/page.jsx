@@ -3,6 +3,7 @@ import FeaturedBooks from "@/components/FeaturedBooks";
 import Footer from "@/components/Footer";
 import MarqueeSection from "@/components/MarqueeSection";
 import Navbar from "@/components/Navbar";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       <Banner />
 
       <MarqueeSection />
+      
+      <WhyChooseUs />
 
       <FeaturedBooks />
 
